@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+
+    char Estado;
+    char [20]Codigo da carta;
+    char [20] Nome da  Cidade;
+    int População;
+    float Área em Km²;
+    float PIB;
+    int Numero de pontos turisticos;
+
+   printf("Digite o estado");
+   scanf("%s, &Estado");
+
+    
+
+
+   return 0;
+}
