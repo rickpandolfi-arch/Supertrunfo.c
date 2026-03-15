@@ -47,6 +47,42 @@ int main() {
    printf("Área em Km²: %f\n", areaKm2);
    printf("PIB: %f\n", PIB);
    printf("Número de Pontos Turisticos: %d\n", numeroPontosturisticos);
+   
+   printf("Digite o estado: \n");
+   scanf(" %c", &Estado);
 
+   printf(" Digite o Codigo da carta: \n");
+   scanf("%s", codigoCarta);
+
+   printf("Digite o Nome da Cidade: \n");
+   scanf("%s", nomeCidade);
+
+   printf("Digite a População: \n");
+   scanf("%d", &População);
+
+   printf("Digite a Área: \n");
+   scanf("%e", &areaKm2);
+
+   printf("Digite o PIB: \n");
+   scanf("%f", &PIB);
+
+   printf("Digite o Numero de pontos turisticos: \n");
+   scanf("%d", &numeroPontosturisticos);
+   
+   printf ("\n =========================");
+   printf ("Dados das Cartas");
+   printf ("============================: \n");
+   
+   printf("Estado: %c\n", Estado);
+   printf("Código da Carta: %s\n", codigoCarta);
+   printf("Nome da Cidade: %s\n", nomeCidade);
+   printf("População: %d\n", População);
+   printf("Área em Km²: %f\n", areaKm2);
+   printf("PIB: %f\n", PIB);
+   printf("Número de Pontos Turisticos: %d\n", numeroPontosturisticos);
+
+
+   return 0;
+}
    return 0;
 }
